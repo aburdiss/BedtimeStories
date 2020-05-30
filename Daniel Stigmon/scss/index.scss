@@ -1,0 +1,13 @@
+@import 'variables';
+@import 'mixins';
+
+@import 'partials/global';
+@import 'partials/header';
+@import 'partials/main';
+@import 'partials/footer';
+
+@import 'pages/main';
+@import 'pages/about';
+@import 'pages/random';
+@import 'pages/blog';
+@import 'pages/stories';

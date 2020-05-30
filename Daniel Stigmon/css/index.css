@@ -1,0 +1,221 @@
+/* ============================================
+        Colors
+ ============================================ */
+/* ============================================
+        Layout
+ ============================================ */
+/* Default elements */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3ebe8;
+}
+
+h1, h2 {
+  font-family: "Indie Flower", cursive;
+  margin: 0;
+}
+
+h2 {
+  padding-top: 5px;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #f3ebe8;
+  color: #000;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+button:hover, button:focus {
+  background: #efced8;
+}
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+button:active {
+  transform: scale(0.99);
+}
+
+/* Header */
+.heading {
+  background-color: #f3ebe8;
+  box-shadow: 0px 3px 3px #f3dbe0;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+.heading-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+@media (min-width: 1000px) {
+  .heading-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.heading-logo-container {
+  display: flex;
+}
+.heading-text-container {
+  padding-top: 21px;
+  display: none;
+}
+@media (min-width: 700px) {
+  .heading-text-container {
+    display: block;
+  }
+}
+
+.logo {
+  height: 75px;
+  padding: 10px;
+}
+
+.navigation-link {
+  padding: 20px;
+  margin-top: 8px;
+  text-decoration: none;
+  font-family: "Indie Flower", cursive;
+  font-size: larger;
+}
+
+.home {
+  display: none;
+}
+@media (min-width: 700px) {
+  .home {
+    display: inline;
+  }
+}
+
+/* Main */
+.main-content-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 160px;
+  text-align: center;
+}
+@media (min-width: 1000px) {
+  .main-content-container {
+    margin-top: 85px;
+  }
+}
+
+.welcome-content {
+  font-family: "Indie Flower", sans-serif;
+  font-size: 1.4em;
+  text-align: justify;
+}
+
+/* Footer */
+.footer-container {
+  background-color: #efced8;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* ============================================
+        Main
+ ============================================ */
+/* ============================================
+        About
+ ============================================ */
+.about-contributors {
+  max-width: 580px;
+  margin: auto;
+  background-color: #bee3c0;
+  border: solid #a7d7af 1px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 700px) {
+  .about-contributors {
+    flex-direction: row;
+  }
+}
+
+.about-content {
+  padding: 16px;
+  margin: 16px;
+  min-width: 250px;
+  border-radius: 12px;
+  background-color: #a7d7af;
+}
+.about-content img {
+  height: 200px;
+}
+.about-content button {
+  border: #a7d7af;
+}
+
+.main-button {
+  font-family: "Indie Flower", cursive;
+  font-size: 1.2em;
+  margin-top: 20px;
+  border: solid #938ec1 1px;
+  border-radius: 12px;
+}
+
+/* Story */
+.story-container {
+  background-color: #bee3c0;
+  border: solid #a7d7af 1px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 30px;
+}
+.story-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a7d7af;
+  border-radius: 12px;
+  padding: 5px 15px;
+  margin: 20px;
+  font-size: 1.2em;
+}
+@media (min-width: 700px) {
+  .story-content-container {
+    flex-direction: row;
+  }
+}
+.story-content-container h2 {
+  flex-shrink: 0;
+  text-align: left;
+}
+.story-content {
+  font-size: 1.2em;
+  text-align: center;
+}
+@media (min-width: 700px) {
+  .story-content {
+    padding-left: 20%;
+    text-align: right;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

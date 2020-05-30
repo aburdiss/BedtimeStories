@@ -1,0 +1,51 @@
+
+.main-button {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2em;
+    margin-top: 20px;
+    border: solid $dark-primary 1px;
+    border-radius: 12px;
+}
+
+/* Story */
+.story {
+    &-container {
+        background-color: $dark-tertiary;
+        border: solid $dark-secondary 1px;
+        border-radius: 12px;
+        width: 90%;
+        max-width: 800px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    &-content-container {
+        display: flex;
+        flex-direction: column;
+        @media (min-width: $break-min) {
+            flex-direction: row;
+        }
+        justify-content: space-between;
+        align-items: center;
+        
+        background-color: $dark-secondary;
+        border-radius: 12px;
+        padding: 5px 15px;
+        margin: 20px;
+        font-size: 1.2em;
+
+        & h2 {
+            flex-shrink: 0;
+            text-align: left;
+        }
+    }
+
+    &-content {
+        font-size: 1.2em;
+        text-align: center;
+        @media (min-width: $break-min) {
+            padding-left: 20%;
+            text-align: right;
+        }
+    }
+}

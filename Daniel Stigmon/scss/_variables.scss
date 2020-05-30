@@ -1,0 +1,27 @@
+/* ============================================
+        Colors
+ ============================================ */
+
+    // Semantic Color Names
+$white: #fff;
+$black: #000;
+$dawn-pink: #f3ebe8;
+$vanilla-ice: #f3dbe0;
+$dark-vanilla-ice: #efced8;
+$fringy-flower: #bee3c0;
+$moss-green: #a7d7af;
+$blue-bell: #938ec1;
+    // Functional Color Names
+$light-primary: $dawn-pink;
+$light-secondary: $vanilla-ice;
+$light-tertiary: $dark-vanilla-ice;
+$dark-tertiary: $fringy-flower;
+$dark-secondary: $moss-green;
+$dark-primary: $blue-bell;
+
+/* ============================================
+        Layout
+ ============================================ */
+
+ $break-med: 1000px;
+ $break-min: 700px;
